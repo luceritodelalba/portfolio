@@ -1,0 +1,193 @@
+/* Base Styles */
+body {
+  color:#2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about,#work,#contact{
+  height:600px;
+}
+
+/*end of Base Styles*/
+
+/*Grid*/
+
+.full-width {
+  margin:0% 5% 0% 5%;
+  width:90%;
+}
+
+.half-width {
+  float: left;
+  width:45%;
+}
+
+.third-width {
+  float: left;
+  margin: 2.5%;
+  width:27.5%;
+}
+
+/*end of Grid*/
+
+/*header */
+
+header{
+  background-image: url("https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg");
+  background-size: cover;
+  height:800px;
+}
+
+h1{
+  color:#fdd48d;
+  font-family: 'Lora', serif;
+  font-size:30px;
+}
+
+nav{
+  float: right;
+  font-family:'Source Sans Pro', sans-serif;
+  padding: 1% 0% 0% 0%;
+  text-transform: uppercase;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  display:inline-block;
+}
+
+nav ul a{
+    color:#fdd48d;
+    text-decoration: none;
+    padding: 75px 40px;
+}
+
+h2{
+  clear: both;
+  font-family:'Lora',serif;
+  font-size: 72px;
+}
+
+span{
+color:#684F66;
+}
+
+/*end of header*/
+/*about section*/
+
+#about .full-width{
+  padding: 80px 0;
+  margin:0% 5% 0% 5%;
+}
+
+#about h2{
+  font-size: 36px;
+}
+
+#about p{
+color: #7f7f7f;
+font-size: 21px;
+line-height: 40px;
+padding-right: 50px;
+}
+
+/*end of about section*/
+/*work section*/
+
+#work {
+  background:#F9Ceb7;
+
+}
+#work .full-width{
+  padding: 115px 0;
+}
+
+#work img{
+  padding-bottom:30px;
+  margin: 0% 33%;
+}
+
+#work h3{
+  font-size:24px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#work p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height:24px;
+  padding: 0 35px;
+}
+
+/*end of work section*/
+/*footer contact section*/
+
+#contact{
+  background:#Ebebeb;
+}
+
+#contact-img{
+  margin-top: 50px;
+  width:90%;
+  border: white 12px solid;
+}
+
+/* div id contact-info is for alignment right column*/
+#contact-info{
+  margin-top: 40px;
+  margin-left:10%;
+}
+
+#contact h2{
+  font-size:32px;
+  line-height:24px;
+  font-family: 'Lora',serif;
+  font-weight:700;
+}
+
+#contact p{
+  font-size: 28px;
+  line-height: 20px;
+}
+
+/*contact icons*/
+#envelope {
+    padding: 0% 1% 0% 5%;
+}
+
+#contact a{
+  color:#c49075;
+  font-size:24px;
+  line-height:16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact span{
+  color: #2b2b2b;
+  font-size: 24px;
+  line-height: 18px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#contact ul{
+  list-style: none;
+}
+
+#contact ul li{
+  display: inline;
+  float: left;
+
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+/*end of contact icons*/
+/*THE END*/
