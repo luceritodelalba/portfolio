@@ -1,54 +1,82 @@
 /* Base Styles */
-body {
-  color:#2b2b2b;
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
-#about,#work,#contact{
-  height:600px;
+body {
+  color:#000000; /*black*/
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
 }
 
 /*end of Base Styles*/
 
 /*Grid*/
 
-.full-width {
-  margin:0% 5% 0% 5%;
-  width:90%;
+.full-width{
+  clear: left;
 }
 
 .half-width {
-  float: left;
-  width:45%;
+  float:left;
+  width:40%;
 }
 
-.third-width {
+.fifth-width {
   float: left;
   margin: 2.5%;
-  width:27.5%;
+  width:15%;
+}
+
+.container {
+  float: left;
+  margin: 2.5% 0 0 2.5%;
+  width:75%;
+}
+
+
+.card{
+  margin:2.5%;
+  background-color: #E5e5e5;/*light grey*/
+  width: 40%;
 }
 
 /*end of Grid*/
 
 /*header */
-
 header{
-  background-image: url("https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg");
-  background-size: cover;
-  height:800px;
+  height:400px;
+  position: relative;
+}
+
+#navbar{
+  background-color: #ffffff; /*white*/
+}
+
+#icon-star{
+  padding: 1% 2.5% 0% 2.5%;
+  float: left;
+  height: 3em;
 }
 
 h1{
-  color:#fdd48d;
-  font-family: 'Lora', serif;
-  font-size:30px;
+  font-weight: 900;
+  font-size: 2.1em;
+  color: #061c85; /*blue*/
+}
+
+#banner{
+  margin:0%;
+  background-image: url("../img/banner-river.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
 }
 
 nav{
   float: right;
-  font-family:'Source Sans Pro', sans-serif;
-  padding: 1% 0% 0% 0%;
+  font-family:'Raleway', sans-serif;
+  padding: 3.5% 0% 0% 0%;
   text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 nav ul{
@@ -56,138 +84,221 @@ nav ul{
 }
 
 nav ul li{
-  display:inline-block;
+  display: inline-block;
 }
 
 nav ul a{
-    color:#fdd48d;
+    color:#061c85; /*blue*/
     text-decoration: none;
-    padding: 75px 40px;
+    font-size: 14px;
 }
 
 h2{
-  clear: both;
-  font-family:'Lora',serif;
-  font-size: 72px;
+  clear: left;
+  font-family: 'Indie Flower',serif;
+  font-size: 1.75em;
+  padding: 2.5% 0 0 2.5%;
+  }
+
+header h2{
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 90px;
 }
 
-span{
-color:#684F66;
+.button{
+  background-color: #aec852; /*lime*/
+  font-size: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 45%;
 }
 
+.button a{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
 /*end of header*/
-/*about section*/
+/*services*/
 
-#about .full-width{
-  padding: 80px 0;
-  margin:0% 5% 0% 5%;
+#services .full-width{
+  clear: both;
+  height:300px;
+  background-color: #ffffff; /*white*/
 }
 
-#about h2{
-  font-size: 36px;
+#services h3{
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 5%;
 }
 
-#about p{
-color: #7f7f7f;
-font-size: 21px;
-line-height: 40px;
-padding-right: 50px;
+#services img{
+  height: 100px;
+  margin-left: 45px;
+  display: inline-block;
 }
 
-/*end of about section*/
+/*end of services section*/
 /*work section*/
 
-#work {
-  background:#F9Ceb7;
-
-}
 #work .full-width{
-  padding: 115px 0;
+    background-color: #e5e5e5;
+    height: 625px;
 }
 
-#work img{
-  padding-bottom:30px;
-  margin: 0% 33%;
+#card-row-1{
+  clear: both;
+  background-color: #e5e5e5;
 }
+
+#card-row-2{
+  clear: both;
+  background-color: #e5e5e5;
+}
+
+/*cards*/
+
+#work .w3-card-4 {
+    float:left;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    width: 45%;
+    max-width: 600px;
+    max-height: 500px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.w3-card-4, .w3-hover-shadow:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000 !important;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000 !important;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.w3-white, .w3-hover-white:hover {
+    color: #000 !important;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000 !important;
+}
+
+.card-img{
+  width: 100%;
+  max-width:600px;
+  max-height: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+html, body {
+    line-height: 1.5;
+}
+
+.more-button a{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #aec852; /*lime*/
+  font-size: 1.5em;
+  padding: 0 0.3em 0 0.3em;
+  border: none;
+  border-radius: 5px;
+  float:right;
+  margin-right: 5px;
+  margin-bottom:5px;
+}
+
 
 #work h3{
-  font-size:24px;
+  padding-top: 2%;
+  font-size:1.5em;
   text-align: center;
   margin: 0 auto;
 }
 
-#work p{
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  line-height:24px;
-  padding: 0 35px;
-}
-
 /*end of work section*/
-/*footer contact section*/
+/*about section*/
 
-#contact{
-  background:#Ebebeb;
+#about .full-width{
+  background-color: #fffff;
+  height: 300px;
 }
 
-#contact-img{
-  margin-top: 50px;
-  width:90%;
-  border: white 12px solid;
+#about h2{
+  padding: 0px 0px;
 }
 
-/* div id contact-info is for alignment right column*/
-#contact-info{
-  margin-top: 40px;
-  margin-left:10%;
-}
-
-#contact h2{
-  font-size:32px;
-  line-height:24px;
-  font-family: 'Lora',serif;
-  font-weight:700;
-}
-
-#contact p{
-  font-size: 28px;
-  line-height: 20px;
-}
-
-/*contact icons*/
-#envelope {
-    padding: 0% 1% 0% 5%;
-}
-
-#contact a{
-  color:#c49075;
-  font-size:24px;
-  line-height:16px;
+#about a{
+  color: #061c85;
   font-weight: bold;
   text-decoration: none;
 }
 
-#contact span{
-  color: #2b2b2b;
-  font-size: 24px;
-  line-height: 18px;
-  text-decoration: none;
-  font-weight:bold;
-}
-
-#contact ul{
-  list-style: none;
-}
-
-#contact ul li{
-  display: inline;
+#contact-img{
   float: left;
-
+  margin: 5% 0 0 2.5% ;
+  vertical-align: middle;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
 }
 
-#contact ul img {
-    padding-right: 48px;
+.two-thirds{
+  max-width: 90%;
+  vertical-align: left;
+}
+/*end of about section*/
+
+/*contact section */
+
+footer{
+  text-align: center;
+  background-color: #e5e5e5;
 }
 
-/*end of contact icons*/
-/*THE END*/
+footer #envelope{
+  color: #aec852;
+  height:25px;
+  width:25px;
+}
+
+footer a{
+  color: #061c85;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li{
+
+  display: inline-block;
+}
+
+footer .icon{
+  height: 25px;
+  width: 25px;
+}
