@@ -91,6 +91,15 @@ nav ul a{
     color:#061c85; /*blue*/
     text-decoration: none;
     font-size: 14px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav ul a:hover{
+  color:#18d3cd; /*cyan*/
 }
 
 h2{
@@ -228,6 +237,15 @@ html, body {
   float:right;
   margin-right: 5px;
   margin-bottom:5px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+nav ul a:hover{
+  background-color:#18d3cd; /*cyan*/
 }
 
 
@@ -274,6 +292,7 @@ html, body {
 /*contact section */
 
 footer{
+  width:95%;
   text-align: center;
   background-color: #e5e5e5;
 }
@@ -285,17 +304,27 @@ footer #envelope{
 }
 
 footer a{
-  color: #061c85;
+  color: #aec852;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
+
+footer a:hover {
+  color:#18d3cd;
+}
+
 footer ul{
   list-style-type: none;
 }
 
 footer ul li{
-
   display: inline-block;
+  padding: 0 0 0 15px;
 }
 
 footer .icon{
