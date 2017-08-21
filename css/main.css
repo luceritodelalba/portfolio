@@ -48,6 +48,9 @@ header{
 
 #navbar{
   background-color: #ffffff; /*white*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 #icon-star{
@@ -67,6 +70,7 @@ h1{
   background-image: url("../img/banner-river.png");
   background-size: cover;
   background-position: center;
+  top: 40px;
   width: 100%;
   height: 350px;
 }
@@ -91,6 +95,15 @@ nav ul a{
     color:#061c85; /*blue*/
     text-decoration: none;
     font-size: 14px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav ul a:hover{
+  color:#18d3cd; /*cyan*/
 }
 
 h2{
@@ -98,6 +111,7 @@ h2{
   font-family: 'Indie Flower',serif;
   font-size: 1.75em;
   padding: 2.5% 0 0 2.5%;
+  margin: 25px 0 0 0; 
   }
 
 header h2{
@@ -120,6 +134,15 @@ header h2{
   color: #ffffff;
   text-align: center;
   text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.button a:hover{
+  background-color:#18d3cd; /*cyan*/
 }
 /*end of header*/
 /*services*/
@@ -228,6 +251,15 @@ html, body {
   float:right;
   margin-right: 5px;
   margin-bottom:5px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.more-button a:hover{
+  background-color:#18d3cd; /*cyan*/
 }
 
 
@@ -285,17 +317,27 @@ footer #envelope{
 }
 
 footer a{
-  color: #061c85;
+  color: #aec852;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
+
+footer a:hover {
+  color:#18d3cd;
+}
+
 footer ul{
   list-style-type: none;
 }
 
 footer ul li{
-
   display: inline-block;
+  padding: 0 0 0 15px;
 }
 
 footer .icon{
