@@ -129,6 +129,15 @@ header h2{
   color: #ffffff;
   text-align: center;
   text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.button a:hover{
+  background-color:#18d3cd; /*cyan*/
 }
 /*end of header*/
 /*services*/
@@ -244,7 +253,7 @@ html, body {
   transition: all 500ms ease;
 }
 
-nav ul a:hover{
+.more-button a:hover{
   background-color:#18d3cd; /*cyan*/
 }
 
@@ -292,7 +301,6 @@ nav ul a:hover{
 /*contact section */
 
 footer{
-  width:95%;
   text-align: center;
   background-color: #e5e5e5;
 }
